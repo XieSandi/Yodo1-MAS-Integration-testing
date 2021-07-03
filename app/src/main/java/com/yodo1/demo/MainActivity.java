@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setTitle("sdk init...");
         progressDialog.setCancelable(false);
         progressDialog.show();
-        Yodo1Mas.getInstance().init(this, "Your App Id", new Yodo1Mas.InitListener() {
+        Yodo1Mas.getInstance().init(this, "Yce9sC2YAVI", new Yodo1Mas.InitListener() {
             @Override
             public void onMasInitSuccessful() {
                 progressDialog.dismiss();
